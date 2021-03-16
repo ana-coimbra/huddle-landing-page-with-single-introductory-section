@@ -3,14 +3,6 @@
   --magenta: hsl(300, 69%, 71%);
 }
 
-/* Type fonts */
-/* 
-Headings
-font-family: 'Poppins', sans-serif;
-Weights - 400, 600
-
-*/
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,7 +13,9 @@ body {
   color: white;
   background-color: var(--violet);
   font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 1.8;
   width: 1280px;
   margin: 4rem auto;
 }
@@ -48,16 +42,45 @@ body {
 
 .middle-section {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: auto 1fr;
   grid-gap: 4rem;
-  margin: 8rem auto;
+  align-items: start;
+  margin: 6rem auto;
 }
 
-/* .container {
-  grid:;
-  two columns
-  three rows
-} */
+/* Information */
+
+.information {
+  width: 460px;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 2.5rem 0 1.5rem;
+}
+
+.register {
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  color: var(--violet);
+  box-shadow: 5px 5px 8px rgb(0 0 0 / 20%);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 12.5px 55px;
+  margin: 1.5rem 0;
+}
+
+.register:hover {
+  background-color: var(--magenta);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Footer */
 
 .attribution {
   font-size: 11px;
