@@ -1,3 +1,48 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+}
+
+/* Type fonts */
+/* 
+Headings
+font-family: 'Poppins', sans-serif;
+Weights - 400, 600
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: var(--violet);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.background {
+  resize: fit;
+  position: absolute;
+  z-index: -1;
+}
+
+/* Middle Section */
+
+.middle-section {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+/* .container {
+  grid:;
+  two columns
+  three rows
+} */
+
 .attribution {
   font-size: 11px;
   text-align: center;
