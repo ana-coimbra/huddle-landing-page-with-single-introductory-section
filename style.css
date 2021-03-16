@@ -46,7 +46,7 @@ body {
   grid-template-rows: auto 1fr;
   grid-gap: 2rem;
   align-items: start;
-  margin: 6rem auto 1rem;
+  margin: 6rem auto 3rem;
 }
 
 /* Information */
@@ -107,9 +107,16 @@ body {
 /* Footer */
 
 .attribution {
+  color: #fff;
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #fff;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  color: var(--magenta);
 }
