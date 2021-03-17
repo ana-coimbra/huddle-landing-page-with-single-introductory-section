@@ -127,9 +127,10 @@ body {
 
   .background-image {
     background: url(images/bg-mobile.svg) no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
     height: 50%;
-    resize: horizontal;
   }
 
   /* Logo */
